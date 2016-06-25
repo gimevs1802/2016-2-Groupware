@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\laboratorio\Source\Workspaces\HelloWorld\AdventureWorks.Demo\Ejemplo.Model\BaseDeDatos.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\laboratorio\Source\Repos\2016-2-Groupware\AdventureWorks.Demo\Ejemplo.Model\BaseDeDatos.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

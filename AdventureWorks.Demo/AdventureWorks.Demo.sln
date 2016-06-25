@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Demo", "Adve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo.Model", "Ejemplo.Model\Ejemplo.Model.csproj", "{4946C81A-9E51-4EAF-9DC1-40B801A5BE87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo.BL", "Ejemplo.BL\Ejemplo.BL.csproj", "{D9A0F94C-6B77-4093-8D97-3331CBE37848}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,20 +23,12 @@ Global
 		{4946C81A-9E51-4EAF-9DC1-40B801A5BE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4946C81A-9E51-4EAF-9DC1-40B801A5BE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4946C81A-9E51-4EAF-9DC1-40B801A5BE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A0F94C-6B77-4093-8D97-3331CBE37848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A0F94C-6B77-4093-8D97-3331CBE37848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A0F94C-6B77-4093-8D97-3331CBE37848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A0F94C-6B77-4093-8D97-3331CBE37848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://hecferme.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = AdventureWorks.Demo\\AdventureWorks.Demo.csproj
-		SccProjectName1 = AdventureWorks.Demo
-		SccLocalPath1 = AdventureWorks.Demo
-		SccProjectUniqueName2 = Ejemplo.Model\\Ejemplo.Model.csproj
-		SccProjectName2 = Ejemplo.Model
-		SccLocalPath2 = Ejemplo.Model
 	EndGlobalSection
 EndGlobal

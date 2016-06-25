@@ -84,10 +84,10 @@
       <DependentUpon>BaseDeDatos.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tablas\Product.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enumerados\" />
-    <Folder Include="Tablas\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
