@@ -1,4 +1,5 @@
-﻿using System;
+﻿using rg.GenericRepository.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,7 +14,7 @@ namespace Ejemplo.Model
     public partial class Product : IEntity
     {
         [NotMapped]
-        public int Id;
+        public int Id { get; set; }
         [NotMapped]
         public double SizeInInches {
             get {
