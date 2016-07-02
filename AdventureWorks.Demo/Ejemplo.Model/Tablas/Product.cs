@@ -6,11 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejemplo.Model.Tablas
+
+namespace Ejemplo.Model
 {
     [MetadataType(typeof(ProductMetadata))]
-    public partial class Product : Ejemplo.Model.Product
+    public partial class Product : IEntity
     {
+        [NotMapped]
+        public int Id;
         [NotMapped]
         public double SizeInInches {
             get {
