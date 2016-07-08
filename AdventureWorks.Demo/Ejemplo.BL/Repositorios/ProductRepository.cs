@@ -4,16 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ejemplo.Model;
-using GenericRepository;
+using GenericRepository.EntityFramework;
 
 namespace Ejemplo.BL.Repositorios
 {
     public class ProductRepository
     {
-        public IQueryable <Product> GetAllByColor (
-                IRepository<Product> productRepository, string colorName)
+        // contexto estático
+        private static AdventureWorks2014Entities _myContext = new AdventureWorks2014Entities();
+        // repositorio privado
+        private IEntityRepository<Product> _myProductRepository = new EntityRepository<Product>(_myContext);
+
+        public IQueryable <Product> GetAllByColor (string colorName)
         {
-            return productRepository.FindBy(x => x.Color == colorName);
+            return _myProductRepository.FindBy(x => x.Color == colorName);
         }
     }
 }

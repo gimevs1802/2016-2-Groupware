@@ -9,11 +9,12 @@
 
 namespace Ejemplo.Model
 {
+    using GenericRepository.EntityFramework;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
-    public partial class AdventureWorks2014Entities : DbContext
+
+    public partial class AdventureWorks2014Entities : EntitiesContext
     {
         public AdventureWorks2014Entities()
             : base("name=AdventureWorks2014Entities")
@@ -25,9 +26,9 @@ namespace Ejemplo.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<ProductCategory> ProductCategories { get; set; }
-        public virtual DbSet<ProductModel> ProductModels { get; set; }
-        public virtual DbSet<ProductSubcategory> ProductSubcategories { get; set; }
+        public virtual IDbSet<Product> Products { get; set; }
+        public virtual IDbSet<ProductCategory> ProductCategories { get; set; }
+        public virtual IDbSet<ProductModel> ProductModels { get; set; }
+        public virtual IDbSet<ProductSubcategory> ProductSubcategories { get; set; }
     }
 }
