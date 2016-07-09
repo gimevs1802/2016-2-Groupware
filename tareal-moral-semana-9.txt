@@ -1,0 +1,10 @@
+-- PARA EL PROFESOR
+* corregir la parte del contexto (no tocar la clase generada, sino una nueva de contexto o, en su defecto, modificar las propiedades de t4 para que se genere como se desea)
+* averigurar lazy loading y eager loading en generic repository ( DbSet<T>.Include())
+* calificar los laboratorios
+* pruebas automatizadas con bases de datos en memoria
+* dejar exposiciones para el grupo
+* hacer funcionar entity framework con wcf
+
+-- PARA LOS ALUMNOS
+* INDIVIDUALENTE, generar un repository, model y pruebas automatizadas para las tablas de Employee, Person, SalesPerson, EntityPayHistory, EmployeeDepartment y Department.
