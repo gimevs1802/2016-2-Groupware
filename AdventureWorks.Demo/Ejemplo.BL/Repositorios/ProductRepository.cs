@@ -19,5 +19,11 @@ namespace Ejemplo.BL.Repositorios
         {
             return _myProductRepository.FindBy(x => x.Color == colorName);
         }
+
+        public IQueryable<Product> GetAllProducts()
+        {
+            return _myProductRepository.GetAll();
+        }
+
     }
 }
